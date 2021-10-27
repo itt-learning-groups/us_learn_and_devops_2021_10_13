@@ -29,7 +29,7 @@ We've been working with pod autoscaling. Now it's time to shift focus up a level
 
 !["003"](img/concepts/003.png "003")
 
-Components (n AWS EKS):
+Components (in AWS EKS):
 
 * Cluster node-group(s) containing worker nodes (e.g. EC2 virtual-machine instances if we're not running the cluster in ECS Fargate)
 * An autoscaling-group ("ASG") controlling the node-group instances
