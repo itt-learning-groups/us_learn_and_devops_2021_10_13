@@ -52,7 +52,7 @@ Components (n AWS EKS):
     * A ClusterRole and Role with permissions rules allowing actions to be performed in the cluster as a whole and specifically within the kube-system namespace
     * Role bindings to bind those roles to the Service Account our cluster-autoscaler uses
 
-!["001"](img/concepts/001.png "001")
+!["ClusterAutoscalerSetup"](img/concepts/ClusterAutoscalerSetup.png "ClusterAutoscalerSetup")
 
 Here's some additional info on the cluster autoscaler from EKS: <https://docs.aws.amazon.com/eks/latest/userguide/cluster-autoscaler.html>.
 
